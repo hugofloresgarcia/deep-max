@@ -16,9 +16,6 @@ include_directories(
 	"${C74_INCLUDES}"
 )
 
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup()
-
 set( SOURCE_FILES
 	${PROJECT_NAME}.cpp
 	../shared/signal_routing_objects.h
